@@ -1,0 +1,109 @@
+body{
+    background-image: url(game.jpg);
+    background-size: 100%;  
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.two{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+#score{
+    font-size: 40px;
+    color: cornflowerblue;
+    background-color: black;
+    padding: 40%;
+
+}
+
+#left{
+     font-size: 40px;
+color: cornflowerblue;
+background-color: black;
+padding: 40%;
+
+}
+
+#back{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    padding: 5px 5px;
+    font-weight: bold;
+    color: black;
+    background: white;
+}
+
+#back:hover{
+    background: lightgrey;
+}
+
+#sh{
+    width:70px;
+    padding: 5px 5px;
+    font-weight: bold;
+    color : black;
+    background: burlywood;
+}
+
+#sh:hover{
+    background: rgb(226, 170, 137);
+}
+
+#st{
+    width:70px;
+    padding: 5px 5px;
+    font-weight: bold;
+    color : black;
+    background: rgb(238, 224, 64);
+}
+
+#st:hover{
+    background: rgb(139, 139, 40);
+}
+
+#def{
+    width:70px;
+    padding: 5px 5px;
+    font-weight: bold;
+    color : black;
+    background: azure;
+}
+
+#def:hover{
+    background: skyblue;
+}
+
+#less{
+    width:70px;
+    padding: 5px 5px;
+    font-weight: bold;
+    color : black;
+    background: goldenrod;
+}
+
+#less:hover{
+    background: lightgoldenrodyellow;
+}
+
+#killed{
+    width:70px;
+    padding: 5px 5px;
+    font-weight: bold;
+    color : black;
+    background: blanchedalmond;
+}
+
+#killed{
+    background: beige;
+}
